@@ -1,0 +1,25 @@
+{
+  "name": "@hackforplay/data-url-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackforplay/data-url-converter.git"
+  },
+  "keywords": [
+    "hackforplay"
+  ],
+  "author": "teramotodaiki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackforplay/data-url-converter/issues"
+  },
+  "homepage": "https://github.com/hackforplay/data-url-converter#readme",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}

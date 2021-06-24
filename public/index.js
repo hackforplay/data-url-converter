@@ -14,10 +14,10 @@ input.addEventListener('change', () => {
             const item = container.cloneNode(true);
             item.querySelector('.filename').textContent = file.name;
             item.querySelector('.icon').src = url;
-            item.querySelector('.code').value = `item?.imageUrl = '${url}';`;
+            item.querySelector('.code').value = `this.imageUrl = '${url}';`;
             item.querySelector('.copy').addEventListener('click', copy);
             item.querySelector('.regenerate').addEventListener('click', () => {
-                item.querySelector('.code').value = `item?.imageUrl = '${url}';`;
+                item.querySelector('.code').value = `this.imageUrl = '${url}';`;
             });
             item.classList.remove('hidden');
             document.body.appendChild(item);
